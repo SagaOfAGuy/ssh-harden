@@ -1,3 +1,5 @@
+#!/bin/bash
+
 # Install openssh-server based on the package manager on Linux system 
 if [ ! -z $(command -v apt) ]; then sudo apt install openssh-server; fi
 if [ ! -z $(command -v dnf) ]; then sudo dnf install openssh-server; fi
