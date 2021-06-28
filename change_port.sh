@@ -10,7 +10,7 @@ if [ ! -z $(command -v pacman) ]; then sudo pacman -S install openssh-server; fi
 read -p "Enter a port number: " port
 
 # Replace port number with user input in sshd config file 
-sudo sed -i "s/Port 524/Port $port/g" /etc/ssh/sshd_config
+sudo sed -i "s/Port/Port $port/g" /etc/ssh/sshd_config
 echo "Port number successfully changed!"
 
 # Configure changed port in SEmanage if using Red-Hat Linux
