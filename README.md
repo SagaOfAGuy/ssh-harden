@@ -1,5 +1,5 @@
 # ssh-harden
-Scripts to harden SSH on Linux
+Scripts to harden SSH setup on Linux
 
 # Make script executable
 ```bash 
